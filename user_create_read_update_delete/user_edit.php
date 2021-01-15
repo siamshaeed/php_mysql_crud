@@ -1,6 +1,5 @@
  <!-- header include -->
  <?php include('includes/header.php'); ?>
-
  <body>
    <!-- nav include -->
    <?php include('includes/nav.php'); ?>
@@ -22,7 +21,7 @@
            <p class="alert alert-danger"><?php echo $_GET['msg']; ?></p>
          <?php } ?>
 
-         <!-- form start -->
+         <!-- user Edit form -->
          <form action="includes/user_update.php" method="post">
            <div class="form-group">
              <label for="name">name:</label>
@@ -49,5 +48,4 @@
    <!-- footer -->
    <?php include("includes/footer.php"); ?>
  </body>
-
  </html>

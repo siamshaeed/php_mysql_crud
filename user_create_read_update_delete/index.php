@@ -1,6 +1,5 @@
  <!-- header include -->
  <?php include('includes/header.php'); ?>
-
  <body>
      <!-- nav include -->
      <?php include('includes/nav.php'); ?>

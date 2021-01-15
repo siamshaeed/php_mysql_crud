@@ -1,6 +1,5 @@
  <!-- header include -->
  <?php include('includes/header.php'); ?>
-
  <body>
    <!-- nav include -->
    <?php include('includes/nav.php'); ?>
@@ -11,7 +10,7 @@
        <!-- body -->
        <div class="col-sm-8 text-left">
          <h1 class="text-center">User Entry Here</h1>
-         <!-- form start -->
+         <!-- New User Entry form -->
          <form action="includes/user_submit.php" method="post">
            <div class="form-group">
              <label for="name">Name</label>
@@ -35,5 +34,4 @@
    <!-- footer -->
    <?php include("includes/footer.php"); ?>
  </body>
-
  </html>
